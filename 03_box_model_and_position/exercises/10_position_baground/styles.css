@@ -1,0 +1,60 @@
+div:nth-child(1) {
+    background-color:#99e6ff;
+    background-image:
+    radial-gradient(at 50% 47%, hsla(101,52%,60%,1) 0px, transparent 50%),
+    radial-gradient(at 84% 23%, hsla(135,43%,57%,1) 0px, transparent 50%),
+    radial-gradient(at 11% 77%, hsla(176,78%,65%,1) 0px, transparent 50%),
+    radial-gradient(at 83% 73%, hsla(135,43%,56%,1) 0px, transparent 50%),
+    radial-gradient(at 11% 23%, hsla(176,78%,65%,1) 0px, transparent 50%);
+
+}
+
+div:nth-child(2) {
+    background-color:#ffcc99;
+    background-image:
+    radial-gradient(at 28% 73%, hsla(308,66%,71%,1) 0px, transparent 50%),
+    radial-gradient(at 34% 12%, hsla(278,69%,72%,1) 0px, transparent 50%),
+    radial-gradient(at 17% 0%, hsla(313,92%,67%,1) 0px, transparent 50%),
+    radial-gradient(at 81% 27%, hsla(291,90%,79%,1) 0px, transparent 50%),
+    radial-gradient(at 14% 67%, hsla(273,88%,68%,1) 0px, transparent 50%),
+    radial-gradient(at 34% 99%, hsla(345,90%,75%,1) 0px, transparent 50%),
+    radial-gradient(at 43% 78%, hsla(302,95%,78%,1) 0px, transparent 50%);
+}
+
+div {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+section {
+    display: block;
+    position: absolute;
+    left: 250px;
+}
+
+.card {
+    max-width: 300px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.4em;
+    border: 1px solid #CCC;
+    box-shadow: 0 0 1em 0.3em rgb(0, 0, 0, 1);
+}
+
+.card svg {
+    display: block;
+    position: absolute;
+    width: 1.6em;
+    right: 1em;
+    bottom: 1em;
+}

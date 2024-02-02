@@ -1,0 +1,30 @@
+html {
+    font: 14px/1.5 'Helvetica', sans-serif;
+}
+
+body {
+    font: inherit;
+    margin: 3em;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+a {
+    padding: 1em;
+    text-decoration: none;
+    color: rgb(144, 202, 57);
+}
+
+.line {
+    border: 1px solid #000000;
+    margin: 15px 0;
+}
+
+.heading {
+    display: inline;
+    font-size: 2.5em;
+    font-weight: bold;
+}
