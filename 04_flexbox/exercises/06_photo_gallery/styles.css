@@ -1,0 +1,25 @@
+body, ul, li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+
+body {
+    max-width: 75vw;
+}
+
+li {
+    border: 5px solid black;
+    padding: 0.5em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    justify-content: space-between;
+}
