@@ -1,17 +1,15 @@
-body, ul, li {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-}
-
-
 body {
+    display: flex;
     max-width: 75vw;
 }
 
 li {
+    display: flex;
+    align-items: center;
     border: 5px solid black;
     padding: 0.5em;
+    flex: 0 0 250px;
+
 }
 
 img {
@@ -21,5 +19,13 @@ img {
 }
 
 ul {
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    list-style: none;
+}
+
+.gallery {
+    max-width: 65em;
+    margin: 0 auto;
 }
