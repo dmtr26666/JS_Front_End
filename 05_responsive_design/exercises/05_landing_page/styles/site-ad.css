@@ -1,0 +1,98 @@
+.website-ad {
+    width: 40em;
+}
+
+.website-ad img {
+    width: 8em;
+    float: right;
+    padding: 1em;
+}
+
+.website-ad p:nth-child(2) {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.website-ad button {
+    margin-top: 1em;
+    border: 2px solid black;
+    padding: 0.2em 1em;
+    border-radius: 0.3em;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.line {
+    width: 3em;
+    border-bottom: 3px solid black;
+}
+
+.our-team-text, 
+.testemonials {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+
+.card, 
+.testemonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 30%;
+}
+
+.card img,
+.testemonial-card img {
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
+    box-shadow: 0 0.6em 1em 0 rgba(0, 0, 0, 0.5);
+}
+
+.card h3 {
+    margin-top: 1em;
+    font-weight: 500;
+}
+
+.card p:nth-child(4) {
+    margin-top: 1em;
+    font-style: italic;
+}
+
+.newsletter {
+    /* width: 100vw; */
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+.newsletter p {
+    font-size: 32px;
+    color: white;
+}
+
+.input-section {
+    display: flex;
+    gap: 0.5em;
+    min-width: 25em;
+}
+
+.input-section input {
+    flex: 0 0 65%;
+}
+
+.input-section button {
+    flex: 0 0 30%;
+    padding: 3px;
+}

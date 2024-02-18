@@ -1,0 +1,75 @@
+@import 'reset.css';
+@import 'page-layout.css';
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+    gap: 2em;
+    list-style: none;
+    color: blue;
+
+}
+
+@media (min-width: 900px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        gap: 1em;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+        list-style: none;
+        color: blue;
+    
+    }
+
+}
+
+
+header p, main p {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+main ul {
+    padding-left: 2em;
+}
+
+aside ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside ul li {
+    padding: 0.3em;
+}

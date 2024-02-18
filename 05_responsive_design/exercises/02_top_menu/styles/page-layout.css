@@ -1,0 +1,27 @@
+body {
+    max-width: 35em;
+    padding: 2em;
+    min-width: 15em;
+}
+
+.container header,
+.container footer {
+    flex: 0 0 100%;
+}
+
+.container header,
+.container main,
+.container aside,
+.container footer {
+    background-color: aqua;
+    padding: 1.5em;
+    border-radius: 0.4em;
+}
+
+aside {
+    flex: 0 0 30%;
+}
+
+main {
+    flex: 1 0 65%;
+}

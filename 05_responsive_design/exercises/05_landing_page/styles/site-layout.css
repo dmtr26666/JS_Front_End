@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+html {
+    font: 16px/1.5 'Oswald';
+}
+
+body, button {
+    font: inherit;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 3em;
+}
+
+.site main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+
+}
+
+.team-info-cards, 
+.testemonials-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+}
